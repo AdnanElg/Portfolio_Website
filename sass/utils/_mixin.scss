@@ -1,0 +1,27 @@
+@use "./variables";
+
+
+// Mixin Section1 : 
+
+@mixin block1__mixin {
+    
+    background-color: variables.$oranged;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0.9;
+    border-radius: 6%;
+
+}
+
+
+// Mixin Section 2,3,4 and 5 : 
+
+@mixin block2__mixin {
+    
+    background-color: variables.$light;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0.9;
+    border-radius: 5%;
+
+}

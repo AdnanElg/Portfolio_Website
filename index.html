@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="FR">
+<html lang="fr">
+
+    <!--HEAD-->
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +10,42 @@
         <meta name="description" content="Je suis Adnan El Ghalbzouri, je suis développeur web sur Bordeaux. J'ai réalisé ce portfolio dans le but de vous présenter mes compétences ainsi que mes expériences.">
         <meta name="Author" content="El Ghalbzouri Adnan"/>
         <!-- Lien pour le logo de mon portfolio : -->
-        <link rel="shortcut icon" href="./image/icône.webp" type="image/webp"/>
+        <link rel="shortcut icon" type="image/webp" href="./image/Logo/icône.webp"/>
         <!-- Lien pour pouvoir utiliser les icônes Awesome : -->
         <script defer src="https://kit.fontawesome.com/f1a3a49ed1.js" crossorigin="anonymous"></script>
         <!-- Lien vers la feuille de style : -->
-        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="./css/styles.css"/>
         <title>Portfolio développeur web | El Ghalbzouri Adnan</title>
     </head>
+    
+
     <body>
+
+        <!-- Loader : -->
+    
+        <div class="loader">
+            <div class="loader__itemContainer">
+                <div class="loader__item loader__item--1">B</div>
+                <div class="loader__item loader__item--2">I</div>
+                <div class="loader__item loader__item--3">E</div>
+                <div class="loader__item loader__item--1">N</div>
+                <div class="loader__item loader__item--2">V</div>
+                <div class="loader__item loader__item--3">E</div>
+                <div class="loader__item loader__item--2">N</div>
+                <div class="loader__item loader__item--3">U</div>
+                <div class="loader__item loader__item--3">E</div>
+                
+            </div>
+        </div>
+
+
         <video id="background-video" autoplay loop muted>
             <source src="./video/video1.mp4" type="video/mp4">
         </video>
+
+
+    <!-- Header : -->
+
         <header>
             <div class="conteneur">
                 <div class="conteneur__span">
@@ -33,53 +61,72 @@
                 </nav>
             </div>
             <div class="conteneur__block">
-                <img src="./image/image1.jpg" alt="Photo de profile en couleur de Adnan El Ghalbzouri"/>
+                <img src="./image/Header/image1.webp" alt="Photo de profile en couleur de Adnan El Ghalbzouri"/>
+                <div>
+                    <a href="https://www.linkedin.com/in/adnan-el-ghalbzouri/"><i id="icone1" class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://github.com/AdnanElg"><i id="icone2"  class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a href="mailto:elghalbzouriadnan@gmail.com"><i id="icone3" class="fas fa-at fa-2x" aria-hidden="true"></i></a>
+                </div>
                 <h1>VOUS RECHERCHEZ UN <br> DÉVELOPPEUR WEB EN ALTERNANCE ?</h1>
                 <span class="conteneur__border"></span>
                 <p>Ça tombe bien ! Je suis passionné par le web et j'ai pu acquérir un <br> certain nombre de compétences depuis mes débuts dans le web. <br> La suite c'est à vous de la decouvrir !</p>    
                 <a href='#apropos'><i class="fas fa-arrow-circle-down text-primary fa-4x"></i></a>
+            </div>
         </header>
 
+
+        
         <main>
+
+        <!-- Section1 : -->
+
             <section class="conteneur__section1">
                 <div class="conteneur__block__section1">
                     <h2 id="apropos">À PROPOS</h2>
                     <h3>Faisons connaissance 😉</h3>
                     <span class="conteneur__border__section1"></span>
-                    <p class="conteneur__paragraphe1__section1">Hey Salut ! avant toute chose, je me présente. <br> Moi c'est Adnan, J'ai 21 ans, je suis actuellement en formation avec Oppenclassroms pour obtenir mon diplome 
+                    <p class="conteneur__paragraphe1__section1">Hey Salut ! avant toute chose, je me présente. <br> Moi c'est Adnan, j'ai 21 ans, je suis actuellement en formation avec Oppenclassroms <br> pour obtenir mon diplome 
                     de developeur web (bac+2). <br> Je vous présente mon portfolio qui retrace mon parcour avec Oppenclassroms et les différents projets que j'ai pu faire.</p>
-                    <br>
                     <p class="conteneur__paragraphe2__section1">D'ailleurs, je souhaite poursuivre mon cursus avec Oppenclassroms, <br> pour me lancer dans la formation développeur d'application PHP/Symphony (bac+3). <br> Aujourd'hui je cherche une entreprise qui souhaite m'accompagner dans cette formation.</p>
                     <a href='#competence'><button>CONTINUER</button></a>
                 </div>
             </section>
 
+        
+
+        <!-- Section2 : -->
+
             <section class="conteneur__section2">
                 <div class="conteneur__block__section2">
                     <h2 id="competence">MES COMPÉTENCES</h2>
                     <div class="conteneur__block__img">
-                        <img src="./image/image2.png" alt="Photographie de l'icone HTML"/>
-                        <img src="./image/image3 .png" alt="Photographie de l'icone CSS"/>
-                        <img src="./image/image4.png" alt="Photographie de l'icone JAVASCRIPT"/>
-                        <img src="./image/image5.png" alt="Photographie de l'icone BOOTSTRAP"/>
-                        <img src="./image/image6.png" alt="Photographie de l'icone SASS"/>
-                        <img src="./image/image7.png" alt="Photographie de l'icone VUE.JS"/>
-                        <img src="./image/image8.png" alt="Photographie de l'icone NODE.JS"/>
-                        <img src="./image/image9.png" alt="Photographie de l'icone MONGODB"/>
-                        <img src="./image/image11.png" alt="Photographie de l'icone MYSQL"/>
-                        <img src="./image/image13.png" alt="Photographie de l'icone GITHUB"/>
-                        <img src="./image/image12.png" alt="Photographie de l'icone SEO"/>
-                        <img src="./image/image14.png" alt="Photographie de l'icone FIGMA"/>
-                        <img src="./image/image15.png" alt="Photographie de l'icone PHOTOSHOP"/>
+                        <img src="./image/Section2/image2.webp" alt="Photographie de l'icone HTML"/>
+                        <img src="./image/Section2/image3.webp" alt="Photographie de l'icone CSS"/>
+                        <img src="./image/Section2/image4.webp" alt="Photographie de l'icone JAVASCRIPT"/>
+                        <img src="./image/Section2/image5.webp" alt="Photographie de l'icone BOOTSTRAP"/>
+                        <img src="./image/Section2/image6.webp" alt="Photographie de l'icone SASS"/>
+                        <img src="./image/Section2/image7.webp" alt="Photographie de l'icone VUE.JS"/>
+                        <img src="./image/Section2/image8.webp" alt="Photographie de l'icone NODE.JS"/>
+                        <img src="./image/Section2/image9.webp" alt="Photographie de l'icone MONGODB"/>
+                        <img src="./image/Section2/image10.webp" alt="Photographie de l'icone MYSQL"/>
+                        <img src="./image/Section2/image11.webp" alt="Photographie de l'icone SEO"/>
+                        <img src="./image/Section2/image12.webp" alt="Photographie de l'icone GITHUB"/>
+                        <img src="./image/Section2/image13.webp" alt="Photographie de l'icone FIGMA"/>
+                        <img src="./image/Section2/image14.webp" alt="Photographie de l'icone PHOTOSHOP"/>
                     </div>
                 </div>
             </section>
 
+
+
+
+        <!-- Section3 : -->
+
             <section class="conteneur__section3">
                 <div class="conteneur__block__section3">            
-                    <h2 id="formation">MA FORMATION</h2>
+                    <h2>MA FORMATION</h2>
                     <div class="conteneur__block__formation">
-                        <img class="image1__section3" src="./image/image16.png" alt="Photographie d'un diplome avec un chapeaux"/>
+                        <img class="image1__section3" src="./image/Section3/image16.webp" alt="Photographie d'un diplome avec un chapeaux"/>
                         <span class="conteneur__date__section3">2021-2022</span>
                         <span class="conteneur__border__section3"></span>
                         <h3>OpenClassrooms : <br> Développeur Web (bac+2)</h3>
@@ -91,12 +138,159 @@
                             <p>- Réalisation de la partie frontend d'un site e-commerce (JavaScript et API).</p>
                             <p>- Réalisation d'une API pour une application en ligne. (Node JS, Express, MongoDB,).</p>
                             <p>- Réalisation d'un réseau social from scratch (Vue JS, Redux, SASS, Node JS, Express, MySQL) .</p>
-                            <a href="https://openclassrooms.com/fr/paths/556-developpeur-web"><img class="image2__section3" src="./image/image17.png" alt="Photographie du logo de l'école Openclassrooms"/></a>
-                            <button>MON CV</button>
+                            <a href="https://openclassrooms.com/fr/paths/556-developpeur-web"><img class="image2__section3" src="./image/Section3/image17.webp" alt="Photographie du logo de l'école Openclassrooms"/></a>
+                            <a href="./image/Cv/Cv El Ghalbzouri Adnan.zip"><button>MON CV</button></a>
                         </div>
                     </div>
                 </div>
-            </section> 
+            </section>
+            
+
+
+
+        <!-- Section4 : -->
+
+            <section class="conteneur__section4">
+                <div class="conteneur__block__section4">
+                    <h2 id="portfolio">MON PORTFOLIO</h2>
+                    <div class="conteneur__block__portfolio1">
+                        <figure class="conteneur__block__projets1">
+                            <img src="./image/Section4/image18.webp" alt="logo bleu booki"/>
+                            <figcaption>
+                                <h3>BOOKI</h3>
+                                <p>- Reproduction d'un site web via une maquette en HTML et CSS  et implémentation d'une interface entierement responsive.</p>
+                                <a href="https://adnanelg.github.io/P2_El-Ghalbzouri_Code/"><button>Voir Plus</button></a>
+                            </figcaption>
+                        </figure>
+                        <figure class="conteneur__block__projets1">
+                            <img src="./image/Section4/image19.webp" alt="logo rose ohmyfood"/>
+                            <figcaption>
+                                <h3>OHMYFOOD</h3>
+                                <p>- Utilisation de HTML et CSS et du préprocesseur Sass. Conception du site web en mobile first pour les besoins du client, site 100% responsive. Mise en place d'animations poussées avec Sass.  Utilisation de git et de github pour le projet.</p>
+                                <a href="https://adnanelg.github.io/Projet_n-3_openclassrooms/"><button>Voir Plus</button></a>
+                            </figcaption>
+                        </figure>
+                        <figure class="conteneur__block__projets1">
+                            <img src="./image/Section4/image20.webp" alt="logo la chouette agence"/>
+                            <figcaption>
+                                <h3>LA CHOUETTE AGENCE</h3>
+                                <p>- Optimisation d'un site web, optimisation du référencement du site web (SEO) Mise en place d'un code HTML et CSS maintenable. Optimisation de la performance du site. Conception d'un contenu web accessible conformément aux règles WCAG.</p>
+                                <a href="https://adnanelg.github.io/Projet-n-4-La-Chouette-Agence-SEO-APRE/"><button>Voir Plus</button></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="conteneur__block__portfolio2">
+                        <figure class="conteneur__block__projets2">
+                            <img src="./image/Section4/image21.webp" alt="logo kanap"/>
+                            <figcaption>
+                                <h3>KANAP </h3>
+                                <p>- Utilisation de JavaScript côté frontend en communiquant avec une API externe pour récupérer des données. Utilisation de la méthode fetch pour récupérer les ressources  à travers le reseau de manière asynchrone. Envoi des données au backend.</p>
+                                <button>Projet en cours</button>
+                            </figcaption>
+                        </figure>
+                        <figure class="conteneur__block__projets2">
+                            <img src="./image/Section4/image22.webp" alt="logo hot takes"/>
+                            <figcaption>
+                                <h3>HOT TAKES </h3>
+                                <p>- Construction d'une API sécurisée pour une application d'avis gastronomiques. Réalisation d'une API REST avec Node.js Express et MongoDB. Création d'un modéle de sécurité en appliquant les techniques de OWASP. Mise en œuvre des opérations CRUD de manière sécurisée</p>
+                                <button>Projet en cours</button>
+                            </figcaption>
+                        </figure>
+                        <figure class="conteneur__block__projets2">
+                            <img src="./image/Section4/image23.webp" alt="logo groupomania"/>
+                            <figcaption>
+                                <h3>GROUPOMANIA</h3>
+                                <p>- Réalisation d'un reseau social d'entreprise. Utilisation de React, Redux, Sass, Node.js, Express et MySQL. Authentification d'un utilisateur et maintenant sa session. Personnalisation du contenu envoyé à un client web  Gestion d'un stockage de données avec MySQL de manière sécurisée.</p>
+                                <button>Projet en cours</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <a href="https://github.com/AdnanElg"><button class="conteneur__btn__section4">MON GIT HUB</button></a>
+                </div>
+            </section>
+
+
+
+
+        <!-- Section5 : -->
+
+            <section class="conteneur__section5">
+                <h2 id="contact">CONTACTEZ-MOI !</h2>
+                <div class="conteneur__block__section5">
+                    <div class="info-container">
+                        <h3>Entrer en Contact</h3>
+                        <p>"Si vous voulez me contacter, me parler d'une collaboration de projet ou simplement dire bonjour, remplissez le formulaire."</p>
+                        <div class="box-container">
+                            <div class="box1">
+                                <div class="info1">
+                                    <h4>Adresse :</h4>
+                                    <p>France, Bordeaux</p>
+                                </div>
+                            </div>
+                            <div class="box2"> 
+                                <div class="info2">
+                                    <h4>Email : </h4>
+                                    <p><a href="mailto:elghalbzouriadnan@gmail.com">elghalbzouriadnan@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="box3">
+                                <div class="info3">
+                                    <h4>Linkedin :</h4>
+                                    <p><a href="https://www.linkedin.com/in/adnan-el-ghalbzouri/">Mon profil sur LikedIn</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="block__input">
+                            <input type="text" name="name" placeholder="Votre nom complet" aria-label="Votre complet" required>
+                            <input type="number" name="number" placeholder="Votre numéro" aria-label="Votre numéro">
+                        </div>
+                        <div class="block__input">
+                            <input type="email" name="email" placeholder="Votre email" aria-label="Votre email" required>
+                            <input type="text" name="sujet" placeholder="Le sujet" aria-label="Votre sujet">
+                        </div>
+                        <textarea class="textarea" name="message" placeholder="Votre message" cols="30" rows="10" aria-label="Votre message" required></textarea>
+                        <button class="button" type="submit">ENVOYER</button>
+                    </form>
+                </div>
+            </section>
+
+
+
+        <!-- Footer : -->
+
+            <footer>
+                <div class="conteneur__footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/adnan-el-ghalbzouri/"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                            <h4>LikedIn</h4>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AdnanElg"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+                            <h4>Github</h4>
+                        </li>
+                        <li>
+                            <a href="mailto:elghalbzouriadnan@gmail.com"><i class="fas fa-at fa-2x" aria-hidden="true"></i></a>
+                            <h4>E-mail</h4>
+                        </li>
+                    </ul>
+                    <span class="border__footer__y"></span>
+                    <span class="border__footer__x"></span>
+                    <div class="conteneur__liens_footer">
+                        <span><a href='#'>© ADNAN EL GHALBZOURI | 2022</a></span>
+                        <ul>
+                            <li><a href='#'>ACCUEIL</a></li>
+                            <li><a href='#apropos'>À PROPOS</a></li>
+                            <li><a href='#portfolio'>PORTFOLIO</a></li>
+                            <li><a href='#contact'>CONTACT</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </footer>
         </main>
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="app.js"></script>
     </body>
-</html>
+</html> 

@@ -1,0 +1,90 @@
+@use "../utils/variables";
+@use "../utils/responsives";
+
+
+//Footer :
+
+.conteneur__footer{
+    background-color: variables.$light;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    opacity: 0.9;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+
+    & ul{
+        gap: 5rem;
+        display: flex;
+        list-style: none;
+        margin: 5rem;
+        position: relative;
+        right: 3%;
+        top: 5rem;
+        font-size: variables.$font-size;
+    }
+    
+
+    & a{
+        text-decoration: none;
+        color: variables.$light-dark; 
+        
+    }
+    
+
+    .border__footer__y{
+        display: inline-block;
+        border-left: 2px solid black;
+        height: 15.1rem;
+        left: 40%;
+        position: absolute;
+        bottom: 0px;
+    
+    }
+    
+
+    .border__footer__x{
+        display: flex;
+        border: 1px solid variables.$black;
+        width: 60%;
+        position: absolute;
+        left: 40%;
+        bottom: 7rem;
+    }
+    
+    
+    .conteneur__liens_footer{
+
+        & ul{
+            position: absolute;
+            gap: variables.$gap+10px;
+            left: 43%;
+            margin-right: 0px;
+            padding-top: 0.5rem ;
+        }
+        
+        
+        
+        & span{
+            position: absolute;
+            bottom: 10rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        
+        
+        & span a{
+            text-decoration: none;
+            color: variables.$oranged;
+            position: relative;
+        }
+    }
+}
+
+
+
+
+
+
+

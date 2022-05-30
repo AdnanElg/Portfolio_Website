@@ -1,0 +1,186 @@
+@use "../utils/variables";
+@use "../utils/zoom";
+@use "../utils/responsives";
+
+
+//Header :
+
+
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: rgb(255, 255, 255);
+    padding: 1.3rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+   
+}
+
+
+
+
+.conteneur__span{
+    font-size: variables.$font-size;
+    font-weight: 700;
+    
+    & a{
+        color:black;
+        text-decoration: none;
+        padding-left: 1rem;
+    }
+
+    & a:hover{
+        color:variables.$oranged;
+    }
+    
+    
+    &:hover{
+        cursor: pointer;
+        @include zoom.Section_zoom;
+    
+    }
+}
+
+
+
+
+.conteneur__nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: variables.$gap+10px;
+    font-size: 22px;
+    list-style: none;
+    font-weight: 700;
+
+
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    & li:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    
+    & a:hover{
+        color:variables.$oranged;
+        
+    }
+}
+
+
+
+
+.conteneur__block{
+    text-align: center;
+    padding-top: 15%;
+
+
+    & img{
+        border-radius: 50%;
+        max-width: 20%;
+        margin-bottom: 8%;
+        border: 3px solid white;
+    }
+    
+    
+    & div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: variables.$gap+20px;
+        font-size: 25px;
+        position: relative;
+        bottom: 4rem;
+        cursor: pointer;
+
+    }
+    
+    
+    #icone1:hover{
+        color:variables.$light;
+        @include zoom.Section_zoom;
+    }
+    
+    
+    
+    #icone2:hover{
+        color:variables.$light;
+        @include zoom.Section_zoom;
+    }
+    
+    
+    
+    #icone3:hover{
+        color:variables.$light;
+        @include zoom.Section_zoom;
+    }
+
+
+
+    & div a{
+        text-decoration: none;
+        color: #8d8d8d;
+    }
+    
+    
+    & h1{
+        font-size: variables.$font-size+30px;
+        color: #fff;    
+        font-weight: variables.$weight;    
+
+           
+      
+    
+    }
+    
+    
+    .conteneur__border{
+        display: flex;
+        position: relative;
+        left: 48%;
+        border: 2px solid variables.$oranged;
+        width: 4%;
+        margin-top: variables.$margin-top+5px;
+
+    }
+    
+    
+
+    & p{
+        margin-top: variables.$margin-top+10px;
+        font-size: 23px;
+        font-weight: 100;
+        color: variables.$light-grey;
+        letter-spacing: 5px;
+        margin-bottom: variables.$margin-bottom+20px;
+
+    
+    }
+    
+    
+    .fa-arrow-circle-down:before{
+        color: variables.$oranged;
+           
+   
+    }
+    
+    
+    .fa-arrow-circle-down:hover{
+        @include zoom.Section_zoom;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
