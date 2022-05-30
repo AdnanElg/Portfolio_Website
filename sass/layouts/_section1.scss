@@ -22,11 +22,22 @@
         font-weight: variables.$weight;
         font-size: 4rem;
         padding-top: 5%;
+
+        @include responsives.tablet{
+            font-size: 5rem;
+        }
            
         @include responsives.Desktop{
-            font-size: 6rem;
+            font-size: 5rem;
             padding-top: 5%;
         }
+
+        
+        @include responsives.phoneL{
+            font-size: 3rem;
+            margin-top: 4rem;
+        }
+
     }
     
     
@@ -36,6 +47,10 @@
         color: #fff;
         padding-top: variables.$padding-top+10px;
 
+        
+        @include responsives.phoneL{
+            font-size: 2rem;
+        }
     
     }
     
@@ -48,6 +63,11 @@
         width: 4%;
         margin-top: variables.$margin-top+5px;  
         
+        
+        @include responsives.phoneL{
+            left: 46%;
+            width: 9%;
+        }
            
     }
     
@@ -58,9 +78,11 @@
         color: variables.$light;
         padding-top: variables.$padding-top;
         padding-bottom: variables.$padding-bottom;
-        line-height: 2rem;    
+        line-height: 2rem; 
 
-           
+        @include responsives.tablet{
+            font-size: 17px;
+        }
      
     }
     
@@ -71,6 +93,10 @@
         color: variables.$light;
         padding-bottom: variables.$padding-bottom+30px;
         line-height: 2rem;    
+
+        @include responsives.tablet{
+            font-size: 17px;
+        }
            
     }
     
@@ -78,6 +104,10 @@
 
     & button{
         @include btn.section1__btn;
+
+        @include responsives.tablet{
+            font-size: 20px;
+        }
     }
     
     

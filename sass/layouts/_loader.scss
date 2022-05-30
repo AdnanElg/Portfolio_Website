@@ -1,5 +1,6 @@
 @use "../utils/keyframes";
 @use "../utils/variables";
+@use  "../utils/responsives";
 
 //Loader Animation
 
@@ -39,6 +40,11 @@
         display: flex;
         justify-content: space-between;
         font-weight: bold;
+
+        @include responsives.phoneL{
+          font-size: 5rem;
+        }
+
       }
 
       &--1 {

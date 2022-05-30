@@ -411,6 +411,11 @@ template {
   justify-content: space-between;
   font-weight: bold;
 }
+@media only screen and (max-width: 425px) {
+  .loader__itemContainer {
+    font-size: 5rem;
+  }
+}
 .loader__item--1 {
   animation-delay: 0s;
 }
@@ -438,10 +443,25 @@ template {
   font-size: 30px;
   font-weight: 700;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__span {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__span {
+    font-size: 20px;
+  }
+}
 .conteneur__span a {
   color: black;
   text-decoration: none;
   padding-left: 1rem;
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__span a {
+    padding-left: 0rem;
+  }
 }
 .conteneur__span a:hover {
   color: #f05f40;
@@ -460,6 +480,11 @@ template {
   list-style: none;
   font-weight: 700;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__nav ul {
+    display: none;
+  }
+}
 .conteneur__nav ul a {
   text-decoration: none;
   color: black;
@@ -476,11 +501,31 @@ template {
   text-align: center;
   padding-top: 15%;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__block {
+    padding-top: 20%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block {
+    padding-top: 27%;
+  }
+}
 .conteneur__block img {
   border-radius: 50%;
   max-width: 20%;
   margin-bottom: 8%;
   border: 3px solid white;
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block img {
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block img {
+    max-width: 60%;
+  }
 }
 .conteneur__block div {
   display: flex;
@@ -491,6 +536,23 @@ template {
   position: relative;
   bottom: 4rem;
   cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block div {
+    bottom: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block div {
+    bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block div {
+    bottom: 0rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
 }
 .conteneur__block #icone1:hover {
   color: #fff;
@@ -513,6 +575,16 @@ template {
   color: #fff;
   font-weight: bold;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block h1 {
+    font-size: 55px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block h1 {
+    font-size: 35px;
+  }
+}
 .conteneur__block .conteneur__border {
   display: flex;
   position: relative;
@@ -521,6 +593,12 @@ template {
   width: 4%;
   margin-top: 35px;
 }
+@media only screen and (max-width: 425px) {
+  .conteneur__block .conteneur__border {
+    left: 45%;
+    width: 10%;
+  }
+}
 .conteneur__block p {
   margin-top: 40px;
   font-size: 23px;
@@ -528,6 +606,23 @@ template {
   color: rgba(255, 255, 255, 0.7);
   letter-spacing: 5px;
   margin-bottom: 40px;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block p {
+    font-size: 13px;
+    line-height: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block p {
+    font-size: 14px;
+    line-height: 2rem;
+  }
 }
 .conteneur__block .fa-arrow-circle-down:before {
   color: #f05f40;
@@ -553,10 +648,21 @@ template {
   font-size: 4rem;
   padding-top: 5%;
 }
-@media only screen and (max-width: 1340px) {
+@media only screen and (max-width: 768px) {
   .conteneur__block__section1 h2 {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__section1 h2 {
+    font-size: 5rem;
     padding-top: 5%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section1 h2 {
+    font-size: 3rem;
+    margin-top: 4rem;
   }
 }
 .conteneur__block__section1 h3 {
@@ -564,6 +670,11 @@ template {
   font-size: 3rem;
   color: #fff;
   padding-top: 30px;
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section1 h3 {
+    font-size: 2rem;
+  }
 }
 .conteneur__block__section1 .conteneur__border__section1 {
   display: flex;
@@ -573,6 +684,12 @@ template {
   width: 4%;
   margin-top: 35px;
 }
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section1 .conteneur__border__section1 {
+    left: 46%;
+    width: 9%;
+  }
+}
 .conteneur__block__section1 .conteneur__paragraphe1__section1 {
   font-weight: 100;
   font-size: 20px;
@@ -581,12 +698,22 @@ template {
   padding-bottom: 20px;
   line-height: 2rem;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__block__section1 .conteneur__paragraphe1__section1 {
+    font-size: 17px;
+  }
+}
 .conteneur__block__section1 .conteneur__paragraphe2__section1 {
   font-weight: 100;
   font-size: 20px;
   color: #fff;
   padding-bottom: 50px;
   line-height: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__section1 .conteneur__paragraphe2__section1 {
+    font-size: 17px;
+  }
 }
 .conteneur__block__section1 button {
   font-size: 25px;
@@ -597,6 +724,11 @@ template {
   background-color: #fff;
   margin-bottom: 5%;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__section1 button {
+    font-size: 20px;
+  }
 }
 .conteneur__block__section1 button:hover {
   transform: scale(1.1);
@@ -621,6 +753,12 @@ template {
   font-size: 4rem;
   padding-bottom: 5%;
 }
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section2 h2 {
+    font-size: 2.7rem;
+    padding-bottom: 10%;
+  }
+}
 .conteneur__block__section2 .conteneur__block__img img {
   flex-wrap: wrap;
   max-width: 150px;
@@ -630,6 +768,21 @@ template {
   background-color: #f05f40;
   border: solid 2px black;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section2 .conteneur__block__img img {
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__section2 .conteneur__block__img img {
+    max-width: 140px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__section2 .conteneur__block__img img {
+    max-width: 119px;
+  }
 }
 .conteneur__block__section2 .conteneur__block__img img:hover {
   cursor: pointer;
@@ -650,11 +803,28 @@ template {
   position: relative;
   padding-bottom: 15%;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__section3 {
+    padding-bottom: 16%;
+  }
+}
 .conteneur__block__section3 h2 {
   font-weight: bold;
   font-size: 4rem;
   padding-top: 7%;
   padding-bottom: 10%;
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__section3 h2 {
+    padding-bottom: 20%;
+    padding-top: 7%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section3 h2 {
+    font-size: 3rem;
+    padding-bottom: 59%;
+  }
 }
 
 .image1__section3 {
@@ -665,6 +835,23 @@ template {
   padding: 20px;
   background-color: #f05f40;
   border: solid 2px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 768px) {
+  .image1__section3 {
+    max-width: 120px;
+    margin: 3px;
+    bottom: 1rem;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .image1__section3 {
+    max-width: 83px;
+    margin: 3px;
+    padding: 4px;
+    bottom: 13rem;
+    position: relative;
+  }
 }
 
 .conteneur__date__section3 {
@@ -678,6 +865,26 @@ template {
   border: 2px solid rgba(0, 0, 0, 0.75);
   background-color: lightgrey;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__date__section3 {
+    right: 81%;
+    bottom: 45rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__date__section3 {
+    right: 84%;
+    font-size: 1rem;
+    bottom: 39rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__date__section3 {
+    right: 44%;
+    font-size: 1rem;
+    bottom: 65rem;
+  }
+}
 
 .conteneur__border__section3 {
   display: inline-block;
@@ -686,6 +893,18 @@ template {
   right: 92%;
   height: 24rem;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__border__section3 {
+    right: 91%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__border__section3 {
+    right: 90%;
+    top: 14rem;
+    height: 55rem;
+  }
+}
 
 .conteneur__block__formation h3 {
   font-weight: bold;
@@ -693,6 +912,26 @@ template {
   position: absolute;
   bottom: 39rem;
   right: 45%;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__formation h3 {
+    font-size: 2rem;
+    right: 37%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__formation h3 {
+    font-size: 1.5rem;
+    right: 38%;
+    bottom: 32rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__formation h3 {
+    font-size: 1.5rem;
+    right: 11%;
+    bottom: 59rem;
+  }
 }
 
 .conteneur__projets__section3 h4 {
@@ -704,12 +943,49 @@ template {
   font-weight: bold;
   color: #f05f40;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__projets__section3 h4 {
+    bottom: 29rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__projets__section3 h4 {
+    bottom: 27rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__projets__section3 h4 {
+    position: relative;
+    bottom: 6rem;
+  }
+}
 .conteneur__projets__section3 p {
   text-align: justify;
   line-height: 3.5rem;
   font-size: 17px;
   padding-left: 15%;
   font-weight: 500;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__projets__section3 p {
+    top: 3rem;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__projets__section3 p {
+    position: relative;
+    font-size: 85%;
+    top: 1.5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__projets__section3 p {
+    position: relative;
+    font-size: 85%;
+    width: 84%;
+    top: -5rem;
+  }
 }
 .conteneur__projets__section3 .image2__section3 {
   position: absolute;
@@ -720,6 +996,22 @@ template {
   background-color: #f05f40;
   border: solid 2px black;
   border-radius: 30%;
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__projets__section3 .image2__section3 {
+    bottom: 25rem;
+    max-width: 150px;
+    padding: 5px;
+    left: 76%;
+    top: -5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__projets__section3 .image2__section3 {
+    top: 7rem;
+    max-width: 100px;
+    left: 68%;
+  }
 }
 .conteneur__projets__section3 .image2__section3:hover {
   transform: scale(1.1);
@@ -737,6 +1029,26 @@ template {
   bottom: 3rem;
   left: 47%;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__projets__section3 button {
+    bottom: 1rem;
+    left: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__projets__section3 button {
+    bottom: 1rem;
+    font-size: 1rem;
+    left: 45%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__projets__section3 button {
+    bottom: 1.5rem;
+    font-size: 1.5rem;
+    left: 34%;
+  }
 }
 .conteneur__projets__section3 button:hover {
   transform: scale(1.1);
@@ -761,6 +1073,11 @@ template {
   padding-top: 7%;
   padding-bottom: 10%;
 }
+@media only screen and (max-width: 425px) {
+  .conteneur__block__section4 h2 {
+    font-size: 3rem;
+  }
+}
 
 .conteneur__block__portfolio1 {
   display: flex;
@@ -778,11 +1095,46 @@ template {
   box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.5);
   border: solid 2px #f05f40;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets1 {
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets1 {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets1 {
+    max-width: 95%;
+  }
+}
 .conteneur__block__projets1 img {
   max-width: 340px;
   border-radius: 10%;
   box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.5);
   border: solid 2px #fff;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets1 img {
+    max-width: 270px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets1 img {
+    max-width: 390px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets1 img {
+    max-width: 280px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets1 img {
+    max-width: 370px;
+  }
 }
 .conteneur__block__projets1 h3 {
   font-size: 28px;
@@ -794,6 +1146,16 @@ template {
   border-bottom: 2px solid black;
   margin-top: 7%;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets1 h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets1 h3 {
+    font-size: 18px;
+  }
+}
 .conteneur__block__projets1 p {
   width: 350px;
   word-wrap: break-word;
@@ -801,6 +1163,21 @@ template {
   margin: 20px;
   line-height: 2rem;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets1 p {
+    width: 246px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets1 p {
+    width: 391px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets1 p {
+    width: 92%;
+  }
 }
 
 .conteneur__block__portfolio1 button {
@@ -837,11 +1214,36 @@ template {
   border: solid 2px #f05f40;
   max-width: 31%;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets2 {
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets2 {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets2 {
+    max-width: 95%;
+  }
+}
 .conteneur__block__projets2 img {
   max-width: 280px;
   box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.5);
   border-radius: 10%;
   border: solid 2px #fff;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets2 img {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets2 img {
+    max-width: 370px;
+  }
 }
 .conteneur__block__projets2 h3 {
   font-size: 28px;
@@ -853,6 +1255,11 @@ template {
   border-radius: 20%;
   border-bottom: 2px solid black;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets2 h3 {
+    font-size: 23px;
+  }
+}
 .conteneur__block__projets2 p {
   width: 350px;
   word-wrap: break-word;
@@ -861,6 +1268,21 @@ template {
   margin: 20px;
   text-align: center;
   line-height: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__projets2 p {
+    width: 240px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__block__projets2 p {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__block__projets2 p {
+    width: 92%;
+  }
 }
 
 .conteneur__block__portfolio2 button {
@@ -892,6 +1314,16 @@ template {
   position: relative;
   top: 8rem;
 }
+@media only screen and (max-width: 768px) {
+  .conteneur__btn__section4 {
+    top: 4rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__btn__section4 {
+    top: 2rem;
+  }
+}
 
 .conteneur__btn__section4:hover {
   cursor: pointer;
@@ -914,12 +1346,34 @@ template {
   padding-bottom: 8%;
   text-align: center;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__section5 h2 {
+    padding-bottom: 20%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__section5 h2 {
+    padding-bottom: 25%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__section5 h2 {
+    padding-bottom: 40%;
+    font-size: 2.8rem;
+    padding-top: 3rem;
+  }
+}
 
 .conteneur__block__section5 {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__block__section5 {
+    gap: 0px;
+  }
 }
 
 .info-container {
@@ -928,6 +1382,14 @@ template {
   position: relative;
   bottom: 7.5rem;
   line-height: 3rem;
+}
+@media only screen and (max-width: 1024px) {
+  .info-container {
+    width: 77rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .info-container h3 {
   color: black;
@@ -940,6 +1402,11 @@ template {
   font-size: 1.5rem;
   line-height: 2;
   padding: 1rem 0;
+}
+@media only screen and (max-width: 425px) {
+  .info-container p {
+    font-size: 1.2rem;
+  }
 }
 
 .box__container {
@@ -1013,6 +1480,18 @@ template {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media only screen and (max-width: 768px) {
+  .block__input {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .block__input {
+    position: relative;
+    left: 20%;
+    bottom: 5rem;
+  }
+}
 .block__input input {
   margin-bottom: 1rem;
   width: 100%;
@@ -1037,6 +1516,20 @@ template {
   padding: 1.2rem 1.8rem;
   text-transform: none;
 }
+@media only screen and (max-width: 1024px) {
+  .textarea {
+    position: relative;
+    left: 21%;
+    bottom: 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .textarea {
+    position: relative;
+    left: 0%;
+    bottom: 0rem;
+  }
+}
 
 .button {
   background: #f05f40;
@@ -1050,6 +1543,24 @@ template {
   left: 37%;
   top: 2rem;
   border: 2px solid black;
+}
+@media only screen and (max-width: 1024px) {
+  .button {
+    left: 60%;
+    top: 1%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button {
+    left: 35%;
+    top: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .button {
+    left: 30%;
+    top: 0rem;
+  }
 }
 .button:hover {
   transform: scale(1.1);
@@ -1065,6 +1576,12 @@ template {
   text-align: center;
   position: relative;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer {
+    text-align: none;
+    display: flex;
+  }
+}
 .conteneur__footer ul {
   gap: 5rem;
   display: flex;
@@ -1074,6 +1591,36 @@ template {
   right: 3%;
   top: 5rem;
   font-size: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer ul {
+    gap: 3rem;
+    margin: 0rem;
+    top: 1rem;
+    font-size: 25px;
+    left: 4%;
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__footer ul {
+    gap: 1.6rem;
+    margin: 0rem;
+    top: 1rem;
+    font-size: 23px;
+    left: 3%;
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__footer ul {
+    gap: 3.6rem;
+    margin: 0;
+    top: 1rem;
+    font-size: 23px;
+    left: 11%;
+    right: 0px;
+  }
 }
 .conteneur__footer a {
   text-decoration: none;
@@ -1087,6 +1634,21 @@ template {
   position: absolute;
   bottom: 0px;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer .border__footer__y {
+    height: 7.9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__footer .border__footer__y {
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__footer .border__footer__y {
+    display: none;
+  }
+}
 .conteneur__footer .border__footer__x {
   display: flex;
   border: 1px solid black;
@@ -1095,12 +1657,37 @@ template {
   left: 40%;
   bottom: 7rem;
 }
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer .border__footer__x {
+    bottom: 0rem;
+    width: 100%;
+    left: 0%;
+  }
+}
 .conteneur__footer .conteneur__liens_footer ul {
   position: absolute;
   gap: 30px;
   left: 43%;
   margin-right: 0px;
   padding-top: 0.5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer .conteneur__liens_footer ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: 5rem;
+    left: 44%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__footer .conteneur__liens_footer ul {
+    flex-direction: row;
+    font-size: 21px;
+    top: 4rem;
+    gap: 13px;
+    left: 43%;
+  }
 }
 .conteneur__footer .conteneur__liens_footer span {
   position: absolute;
@@ -1112,6 +1699,30 @@ template {
   text-decoration: none;
   color: #f05f40;
   position: relative;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__footer .conteneur__liens_footer span a {
+    left: 32%;
+    font-size: 2rem;
+    top: 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .conteneur__footer .conteneur__liens_footer span a {
+    left: 28%;
+    font-size: 1.5rem;
+    top: 5.5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .conteneur__footer .conteneur__liens_footer span a {
+    left: 25rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    position: relative;
+    top: 14rem;
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

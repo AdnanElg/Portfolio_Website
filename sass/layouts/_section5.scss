@@ -20,6 +20,21 @@
         padding-top: 7%;
         padding-bottom: 8%;
         text-align: center;
+
+        @include responsives.Desktop{
+            padding-bottom: 20%;
+        }
+
+        @include responsives.tablet{
+            padding-bottom: 25%;
+        }
+
+        @include responsives.phoneL{
+            padding-bottom: 40%;
+            font-size: 2.8rem;
+            padding-top: 3rem;
+        }
+            
     }
 }
 
@@ -32,6 +47,11 @@
     flex-wrap: wrap;
     gap: 2rem;
 
+    
+    @include responsives.Desktop{
+        gap: 0px;
+    }
+
 }
 
 
@@ -42,6 +62,13 @@
     position: relative;
     bottom: 7.5rem;
     line-height: 3rem;
+
+    @include responsives.Desktop{
+        width : 77rem;
+        margin: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     
     & h3{
@@ -57,6 +84,11 @@
         font-size: 1.5rem;
         line-height: 2;
         padding: 1rem 0;
+
+        @include responsives.phoneL{
+            font-size: 1.2rem;
+        }
+            
     }
 }
 
@@ -166,7 +198,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
+    @include responsives.tablet{
+        display: contents;
+    }
+
+    @include responsives.Desktop{
+        position: relative;
+        left: 20%;
+        bottom: 5rem;
+    }
+
+
     & input{
         margin-bottom: 1rem;
         width: 100%;
@@ -177,6 +220,7 @@
         margin: .7rem 0;
         padding: 1.2rem 1.8rem;
         text-transform: none;
+
     }
 }
 
@@ -192,12 +236,41 @@
     margin: .7rem 0;
     padding: 1.2rem 1.8rem;
     text-transform: none;
+
+    @include responsives.Desktop{
+        position: relative;
+        left: 21%;
+        bottom: 5rem;
+    }
+
+    @include responsives.tablet{
+        position: relative;
+        left: 0%;
+        bottom: 0rem;
+    }
+
 }
 
 
 
 .button{
     @include btn.section5__btn;
+
+    @include responsives.Desktop{
+        left: 60%;
+        top: 1%;
+    }
+
+    @include responsives.tablet{
+        left: 35%;
+        top: 1rem;
+    }
+
+    @include responsives.phoneL{
+        left: 30%;
+        top: 0rem;
+    }
+        
     
     
     &:hover{

@@ -13,6 +13,14 @@
     text-align: center;
     position: relative;
 
+    @include responsives.Desktop{
+        text-align: none;
+        display: flex;
+    }
+
+
+
+
     & ul{
         gap: 5rem;
         display: flex;
@@ -22,6 +30,33 @@
         right: 3%;
         top: 5rem;
         font-size: variables.$font-size;
+
+        @include responsives.Desktop{
+            gap: 3rem;
+            margin: 0rem;
+            top: 1rem;
+            font-size: 25px;
+            left: 4%;
+            right: 0px;
+        }
+
+        @include responsives.tablet{
+            gap: 1.6rem;
+            margin: 0rem;
+            top: 1rem;
+            font-size: 23px;
+            left: 3%;
+            right: 0px;
+        }
+
+        @include responsives.phoneL{
+            gap: 3.6rem;
+            margin: 0;
+            top: 1rem;
+            font-size: 23px;
+            left: 11%;
+            right: 0px;
+        }
     }
     
 
@@ -39,6 +74,18 @@
         left: 40%;
         position: absolute;
         bottom: 0px;
+
+        @include responsives.Desktop{
+            height: 7.9rem;
+        }
+
+        @include responsives.tablet{
+            height: 7rem;
+        }
+
+        @include responsives.phoneL{
+            display: none;
+        }
     
     }
     
@@ -50,6 +97,14 @@
         position: absolute;
         left: 40%;
         bottom: 7rem;
+
+        @include responsives.Desktop{
+            bottom: 0rem;
+            width: 100%;
+            left: 0%;
+        }
+
+        
     }
     
     
@@ -60,7 +115,22 @@
             gap: variables.$gap+10px;
             left: 43%;
             margin-right: 0px;
-            padding-top: 0.5rem ;
+            padding-top: 0.5rem;
+
+            @include responsives.Desktop{
+                display: flex;
+                flex-direction: row;
+                font-size: 1.5rem;
+                top: 5rem;
+                left: 44%;
+            }
+            @include responsives.tablet{
+                flex-direction: row;
+                font-size: 21px;
+                top: 4rem;
+                gap: 13px;
+                left: 43%;
+            }
         }
         
         
@@ -78,6 +148,27 @@
             text-decoration: none;
             color: variables.$oranged;
             position: relative;
+
+            @include responsives.Desktop{
+                left: 32%;
+                font-size: 2rem;
+                top: 5rem;
+            }
+
+            @include responsives.tablet{
+                left: 28%;
+                font-size: 1.5rem;
+                top: 5.5rem;
+            }
+
+            @include responsives.phoneL{
+                left: 25rem;
+                font-size: 1.5rem;
+                width: 25rem;
+                position: relative;
+                top: 14rem;
+                display: inline-block;
+            }
         }
     }
 }

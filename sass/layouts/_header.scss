@@ -26,11 +26,26 @@
 .conteneur__span{
     font-size: variables.$font-size;
     font-weight: 700;
+
+    @include responsives.tablet{
+        font-size: 27px;
+    }
+
+    
+    @include responsives.phoneL{
+        font-size: 20px;
+    }
+
+
     
     & a{
         color:black;
         text-decoration: none;
         padding-left: 1rem;
+
+        @include responsives.phoneL{
+            padding-left: 0rem;
+        }
     }
 
     & a:hover{
@@ -47,7 +62,6 @@
 
 
 
-
 .conteneur__nav ul{
     display: flex;
     justify-content: center;
@@ -56,6 +70,10 @@
     font-size: 22px;
     list-style: none;
     font-weight: 700;
+
+    @include responsives.tablet{
+        display: none;
+    }
 
 
     & a {
@@ -84,11 +102,30 @@
     padding-top: 15%;
 
 
+    @include responsives.tablet{
+        padding-top: 20%;
+    }
+    
+    
+    @include responsives.phoneL{
+        padding-top: 27%;
+    }
+
+
     & img{
         border-radius: 50%;
         max-width: 20%;
         margin-bottom: 8%;
         border: 3px solid white;
+
+        @include responsives.tablet{
+            max-width: 30%;
+        }
+
+        
+        @include responsives.phoneL{
+            max-width: 60%;
+        }
     }
     
     
@@ -101,6 +138,21 @@
         position: relative;
         bottom: 4rem;
         cursor: pointer;
+
+        @include responsives.Desktop{
+            bottom: 3rem;
+        }
+
+        @include responsives.tablet{
+            bottom: 1rem;
+        }
+
+        
+        @include responsives.phoneL{
+            bottom: 0rem;
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+        }
 
     }
     
@@ -136,9 +188,15 @@
         font-size: variables.$font-size+30px;
         color: #fff;    
         font-weight: variables.$weight;    
+        
+        @include responsives.Desktop{
+            font-size: variables.$font-size+25px;
+        }
 
-           
-      
+        
+        @include responsives.phoneL{
+            font-size: 35px;
+        }
     
     }
     
@@ -150,6 +208,12 @@
         border: 2px solid variables.$oranged;
         width: 4%;
         margin-top: variables.$margin-top+5px;
+
+        
+        @include responsives.phoneL{
+            left: 45%;
+            width: 10%;
+        }
 
     }
     
@@ -163,6 +227,19 @@
         letter-spacing: 5px;
         margin-bottom: variables.$margin-bottom+20px;
 
+        @include responsives.Desktop{
+            font-size: 20px;
+        }
+
+        @include responsives.tablet{
+            font-size: 13px;
+            line-height: 2rem;
+        }
+        
+        @include responsives.phoneL{
+            font-size: 14px;
+            line-height: 2rem;
+        }
     
     }
     
@@ -179,8 +256,3 @@
         cursor: pointer;
     }
 }
-
-
-
-
-

@@ -24,6 +24,11 @@
         font-size: 4rem;
         padding-top: 7%;
         padding-bottom: 10%;
+
+        @include responsives.phoneL{
+            font-size: 3rem;
+        }
+            
     }
 
 
@@ -48,6 +53,19 @@
     margin-bottom: variables.$margin-bottom;
     @include box-shadows.box-shadow_two;
     border: solid 2px variables.$oranged;
+
+    @include responsives.Desktop{
+        max-width: 30%;
+    }
+
+    @include responsives.tablet{
+        max-width: 100%;
+    }
+
+    @include responsives.phoneL{
+        max-width: 95%;
+    }
+        
     
 
     & img{
@@ -56,6 +74,22 @@
         @include box-shadows.box-shadow_two;
         border: solid 2px variables.$light;
         
+        @include responsives.Desktop{
+            max-width: 270px;
+        }
+
+        @include responsives.tablet{
+            max-width: 390px;
+        }
+
+        @include responsives.phoneL{
+            max-width: 280px;
+        }
+
+        @include responsives.phoneL{
+            max-width: 370px;
+        }
+            
     }
 
     
@@ -68,6 +102,16 @@
         border-radius: 20%;
         border-bottom: 2px solid variables.$black;
         margin-top: 7%;
+
+        
+        @include responsives.Desktop{
+            font-size: 24px;
+        }
+
+        @include responsives.phoneL{
+            font-size: 18px;
+        }
+
     }
     
 
@@ -79,6 +123,19 @@
         margin: 20px;
         line-height: 2rem;
         text-align: center;
+
+        @include responsives.Desktop{
+            width: 246px;
+        }
+
+        @include responsives.tablet{
+            width: 391px;
+        }
+
+        @include responsives.phoneL{
+            width: 92%;
+        }
+            
     }
 }
 
@@ -104,6 +161,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: variables.$gap+20px;
+    
 }
 
 
@@ -118,13 +176,38 @@
     @include box-shadows.box-shadow_two;
     border: solid 2px variables.$oranged;
     max-width: 31%;
+
+    @include responsives.Desktop{
+        max-width: 30%;
+    }
+
+    @include responsives.tablet{
+        max-width: 100%;
+    }
+
+    @include responsives.phoneL{
+        max-width: 95%;
+    }
+        
     
+
+
 
     & img{
         max-width: 280px;
         @include box-shadows.box-shadow_two;
         border-radius: 10%;
         border: solid 2px #fff;
+
+        @include responsives.Desktop{
+            max-width: 250px;
+        }
+
+        @include responsives.tablet{
+            max-width: 370px;
+        }
+
+            
     }
     
     
@@ -137,6 +220,12 @@
         margin-top: 7%;
         border-radius: 20%;
         border-bottom: 2px solid black;
+
+        
+        @include responsives.Desktop{
+            font-size: 23px;
+        }
+            
     }
     
     
@@ -149,6 +238,20 @@
         margin: 20px;
         text-align: center;
         line-height: 2rem;
+
+        
+        @include responsives.Desktop{
+            width: 240px;
+        }
+
+        @include responsives.tablet{
+            width: 400px
+        }
+
+        @include responsives.phoneL{
+            width: 92%;
+        }
+            
     }
 }
 
@@ -172,6 +275,15 @@
 
 .conteneur__btn__section4{
     @include btn.section4__btn2;
+    
+    @include responsives.tablet{
+        top: 4rem;
+    }
+
+    @include responsives.phoneL{
+        top: 2rem;
+    }
+        
 }
 
 
