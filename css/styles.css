@@ -999,11 +999,10 @@ template {
 }
 @media only screen and (max-width: 768px) {
   .conteneur__projets__section3 .image2__section3 {
-    bottom: 25rem;
     max-width: 150px;
     padding: 5px;
     left: 76%;
-    top: -5rem;
+    top: 11rem;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -1313,6 +1312,11 @@ template {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   position: relative;
   top: 8rem;
+}
+@media only screen and (max-width: 1024px) {
+  .conteneur__btn__section4 {
+    top: 6rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .conteneur__btn__section4 {
@@ -1636,7 +1640,7 @@ template {
 }
 @media only screen and (max-width: 1024px) {
   .conteneur__footer .border__footer__y {
-    height: 7.9rem;
+    height: 8.2rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1659,9 +1663,9 @@ template {
 }
 @media only screen and (max-width: 1024px) {
   .conteneur__footer .border__footer__x {
-    bottom: 0rem;
-    width: 100%;
-    left: 0%;
+    bottom: 4rem;
+    width: 60%;
+    left: 40%;
   }
 }
 .conteneur__footer .conteneur__liens_footer ul {

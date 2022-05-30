@@ -76,7 +76,7 @@
         bottom: 0px;
 
         @include responsives.Desktop{
-            height: 7.9rem;
+            height: 8.2rem;
         }
 
         @include responsives.tablet{
@@ -99,9 +99,9 @@
         bottom: 7rem;
 
         @include responsives.Desktop{
-            bottom: 0rem;
-            width: 100%;
-            left: 0%;
+            bottom: 4rem;
+            width: 60%;
+            left: 40%;
         }
 
         

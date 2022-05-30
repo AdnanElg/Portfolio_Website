@@ -2,7 +2,6 @@
 @use "../utils/zoom";
 @use "../utils/box-shadows";
 
-
 // Mixin-Btn Section1 : 
 
 @mixin section1__btn {
@@ -63,6 +62,7 @@
     @include box-shadows.box-shadow_four;
     position: relative;
     top: 8rem;
+        
 
 }
 

@@ -276,6 +276,10 @@
 .conteneur__btn__section4{
     @include btn.section4__btn2;
     
+    @include responsives.Desktop{
+        top: 6rem;
+    }
+
     @include responsives.tablet{
         top: 4rem;
     }
@@ -283,7 +287,6 @@
     @include responsives.phoneL{
         top: 2rem;
     }
-        
 }
 
 
