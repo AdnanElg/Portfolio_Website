@@ -45,6 +45,15 @@
           font-size: 5rem;
         }
 
+        @include responsives.phoneM{
+          font-size: 3rem;
+        }
+
+        @include responsives.phoneS{
+          font-size: 2.5rem;
+        }
+  
+
       }
 
       &--1 {

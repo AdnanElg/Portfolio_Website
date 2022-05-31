@@ -36,6 +36,13 @@
         font-size: 20px;
     }
 
+    
+    
+    @include responsives.phoneS{
+        font-size: 15px;
+    }
+
+
 
     
     & a{
@@ -126,6 +133,7 @@
         @include responsives.phoneL{
             max-width: 60%;
         }
+
     }
     
     
@@ -152,6 +160,13 @@
             bottom: 0rem;
             margin-bottom: 3rem;
             margin-top: 1rem;
+        }
+
+
+        @include responsives.phoneS{
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+            font-size: 1.4rem;
         }
 
     }
@@ -197,6 +212,10 @@
         @include responsives.phoneL{
             font-size: 35px;
         }
+
+        @include responsives.phoneM{
+            font-size: 29px;
+        }
     
     }
     
@@ -239,6 +258,14 @@
         @include responsives.phoneL{
             font-size: 14px;
             line-height: 2rem;
+        }
+
+        @include responsives.phoneM{
+            font-size: 12px;
+        }
+
+        @include responsives.phoneS{
+            font-size: 15px;
         }
     
     }

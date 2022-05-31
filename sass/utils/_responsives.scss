@@ -22,3 +22,21 @@
         
     }
 }
+
+
+
+@mixin phoneM {
+    @media only screen and (max-width: 375px) {
+        @content;
+        
+    }
+}
+
+
+
+@mixin phoneS {
+    @media only screen and (max-width: 320px) {
+        @content;
+        
+    }
+}

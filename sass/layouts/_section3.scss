@@ -40,6 +40,16 @@
             font-size: 3rem;
             padding-bottom: 59%;
         }
+
+        @include responsives.phoneM{
+            padding-bottom: 80%;
+        }
+
+        @include responsives.phoneS{
+            font-size: 2.5rem;
+        }
+    
+    
     }
 }
 
@@ -69,6 +79,19 @@
         bottom: 13rem;
         position: relative;
     }
+
+    @include responsives.phoneM{
+        max-width: 60px;
+        margin: 3px;
+        padding: 4px;
+        bottom: 15rem;
+        position: relative;
+    }
+
+    @include responsives.phoneS{
+        bottom: 12rem;
+    }
+
 
 }
 
@@ -101,6 +124,19 @@
         font-size: 1rem;
         bottom: 65rem;
     }
+
+    @include responsives.phoneM{
+        right: 41%;
+        font-size: 1rem;
+        bottom: 73rem;
+    }
+
+    @include responsives.phoneS{
+        font-size: 0.8rem;
+        right: 41%;
+        bottom: 96rem;
+    }
+
 }
 
 
@@ -121,6 +157,19 @@
         top: 14rem;
         height: 55rem;
     }
+
+    @include responsives.phoneM{
+        right: 91%;
+        top: 13rem;
+        height: 60rem;
+    }
+
+    @include responsives.phoneS{
+        right: 89%;
+        top: 13rem;
+        height: 82rem;
+    }
+
        
 } 
 
@@ -150,6 +199,19 @@
         bottom: 59rem;
     }
 
+    @include responsives.phoneM{
+        font-size: 1.5rem;
+        right: 2%;
+        bottom: 68rem;
+    }
+
+    @include responsives.phoneS{
+        font-size: 1.2rem;
+        right: 9%;
+        bottom: 92rem;
+    }
+
+
 }
 
 
@@ -177,6 +239,12 @@
         @include responsives.phoneL{
             position: relative;
             bottom: 6rem;
+        }
+
+        @include responsives.phoneM{
+            position: relative;
+            bottom: 9rem;
+            left: 3%;
         }
     }
 
@@ -206,6 +274,22 @@
             top: -5rem;
         }
 
+        @include responsives.phoneM{
+            position:relative;
+            font-size: 85%;
+            width: 84%;
+            top: -9rem;
+        }
+
+        @include responsives.phoneS{
+            font-size: 1.2rem;
+            position: relative;
+            left: 3%;
+            bottom: 9rem;
+            width: 88%;
+        }
+    
+
     }
 
     
@@ -231,6 +315,18 @@
             top: 7rem;
             max-width: 100px;
             left: 68%;
+        }
+
+        @include responsives.phoneM{
+            top: 8rem;
+            max-width: 87px;
+            left: 70%;
+        }
+
+        @include responsives.phoneS{
+            top: 6rem;
+            max-width: 89px;
+            left: 70%;
         }
         
     }
@@ -264,6 +360,12 @@
             bottom: 1.5rem;
             font-size: 1.5rem;
             left: 34%;
+        }
+
+        @include responsives.phoneM{
+            bottom:2.5rem;
+            font-size: 1.5rem;
+            left: 30%;
         }
             
     }

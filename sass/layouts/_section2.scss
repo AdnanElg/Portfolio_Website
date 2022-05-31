@@ -32,6 +32,11 @@
             font-size: 2.7rem;
             padding-bottom: 10%;
         }
+
+        @include responsives.phoneS{
+            font-size: 2.5rem;
+        }
+    
             
     }
     

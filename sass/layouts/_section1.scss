@@ -51,6 +51,14 @@
         @include responsives.phoneL{
             font-size: 2rem;
         }
+
+        @include responsives.phoneM{
+            font-size: 1.8rem;
+        }
+
+        @include responsives.phoneS{
+            font-size: 1.5rem;
+        }
     
     }
     
@@ -83,6 +91,15 @@
         @include responsives.tablet{
             font-size: 17px;
         }
+
+        @include responsives.phoneM{
+            font-size: 16px;
+        }
+
+        @include responsives.phoneS{
+            font-size: 13px;
+        }
+    
      
     }
     
@@ -97,6 +114,15 @@
         @include responsives.tablet{
             font-size: 17px;
         }
+
+        @include responsives.phoneM{
+            font-size: 16px;
+        }
+
+        @include responsives.phoneS{
+            font-size: 13px;
+        }
+    
            
     }
     
@@ -108,6 +134,11 @@
         @include responsives.tablet{
             font-size: 20px;
         }
+
+        @include responsives.phoneS{
+            font-size: 17px;
+        }
+    
     }
     
     

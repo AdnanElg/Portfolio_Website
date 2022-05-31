@@ -57,6 +57,17 @@
             left: 11%;
             right: 0px;
         }
+
+        @include responsives.phoneM{
+            top: 0.5rem;
+            left: 4%;
+        }
+
+        @include responsives.phoneS{
+            font-size: 1.3rem;
+            left: 0%;
+        }
+    
     }
     
 
@@ -105,6 +116,11 @@
         }
 
         
+        @include responsives.phoneL{
+            display: none;
+        }
+
+        
     }
     
     
@@ -131,6 +147,11 @@
                 gap: 13px;
                 left: 43%;
             }
+
+            
+            @include responsives.phoneL{
+                display: none;
+            }
         }
         
         
@@ -154,20 +175,15 @@
                 font-size: 2rem;
                 top: 5rem;
             }
-
+            
             @include responsives.tablet{
                 left: 28%;
                 font-size: 1.5rem;
                 top: 5.5rem;
             }
-
+            
             @include responsives.phoneL{
-                left: 25rem;
-                font-size: 1.5rem;
-                width: 25rem;
-                position: relative;
-                top: 14rem;
-                display: inline-block;
+                display: none;
             }
         }
     }
