@@ -39,34 +39,6 @@
             left: 4%;
             right: 0px;
         }
-
-        @include responsives.tablet{
-            gap: 1.6rem;
-            margin: 0rem;
-            top: 1rem;
-            font-size: 23px;
-            left: 3%;
-            right: 0px;
-        }
-
-        @include responsives.phoneL{
-            gap: 3.6rem;
-            margin: 0;
-            top: 1rem;
-            font-size: 23px;
-            left: 11%;
-            right: 0px;
-        }
-
-        @include responsives.phoneM{
-            top: 0.5rem;
-            left: 4%;
-        }
-
-        @include responsives.phoneS{
-            font-size: 1.3rem;
-            left: 0%;
-        }
     
     }
     
@@ -89,14 +61,6 @@
         @include responsives.Desktop{
             height: 8.2rem;
         }
-
-        @include responsives.tablet{
-            height: 7rem;
-        }
-
-        @include responsives.phoneL{
-            display: none;
-        }
     
     }
     
@@ -113,11 +77,6 @@
             bottom: 4rem;
             width: 60%;
             left: 40%;
-        }
-
-        
-        @include responsives.phoneL{
-            display: none;
         }
 
         
@@ -140,18 +99,8 @@
                 top: 5rem;
                 left: 44%;
             }
-            @include responsives.tablet{
-                flex-direction: row;
-                font-size: 21px;
-                top: 4rem;
-                gap: 13px;
-                left: 43%;
-            }
+    
 
-            
-            @include responsives.phoneL{
-                display: none;
-            }
         }
         
         
@@ -174,16 +123,6 @@
                 left: 32%;
                 font-size: 2rem;
                 top: 5rem;
-            }
-            
-            @include responsives.tablet{
-                left: 28%;
-                font-size: 1.5rem;
-                top: 5.5rem;
-            }
-            
-            @include responsives.phoneL{
-                display: none;
             }
         }
     }

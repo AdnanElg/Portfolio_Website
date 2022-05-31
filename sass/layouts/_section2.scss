@@ -26,18 +26,7 @@
         font-weight:variables.$weight;
         font-size: 4rem;
         padding-bottom: 5%;
-
-            
-        @include responsives.phoneL{
-            font-size: 2.7rem;
-            padding-bottom: 10%;
-        }
-
-        @include responsives.phoneS{
-            font-size: 2.5rem;
-        }
-    
-            
+        
     }
     
     
@@ -50,18 +39,10 @@
         background-color: variables.$oranged;
         border: solid 2px variables.$black;
         @include box-shadows.box-shadow_one;
-
-        @include responsives.phoneL{
-            max-width: 150px;
-        }
             
         
         @include responsives.Desktop{
             max-width: 140px;
-        }
-
-        @include responsives.tablet{
-            max-width: 119px;
         }
       
     }

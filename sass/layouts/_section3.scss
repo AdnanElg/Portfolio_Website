@@ -31,25 +31,6 @@
         padding-top: 7%;
         padding-bottom: 10%;
         
-        @include responsives.tablet{
-            padding-bottom: 20%;
-            padding-top: 7%;
-        }
-
-        @include responsives.phoneL{
-            font-size: 3rem;
-            padding-bottom: 59%;
-        }
-
-        @include responsives.phoneM{
-            padding-bottom: 80%;
-        }
-
-        @include responsives.phoneS{
-            font-size: 2.5rem;
-        }
-    
-    
     }
 }
 
@@ -64,34 +45,6 @@
     padding: variables.$padding;
     background-color: variables.$oranged;
     border: solid 2px variables.$dark;
-
-    @include responsives.tablet{
-        max-width: 120px;
-        margin: 3px;
-        bottom: 1rem;
-        position: relative;
-    }
-
-    @include responsives.phoneL{
-        max-width: 83px;
-        margin: 3px;
-        padding: 4px;
-        bottom: 13rem;
-        position: relative;
-    }
-
-    @include responsives.phoneM{
-        max-width: 60px;
-        margin: 3px;
-        padding: 4px;
-        bottom: 15rem;
-        position: relative;
-    }
-
-    @include responsives.phoneS{
-        bottom: 12rem;
-    }
-
 
 }
 
@@ -113,30 +66,6 @@
         bottom: 45rem;
     }
 
-    @include responsives.tablet{
-        right: 84%;
-        font-size: 1rem;
-        bottom: 39rem;
-    }
-
-    @include responsives.phoneL{
-        right: 44%;
-        font-size: 1rem;
-        bottom: 65rem;
-    }
-
-    @include responsives.phoneM{
-        right: 41%;
-        font-size: 1rem;
-        bottom: 73rem;
-    }
-
-    @include responsives.phoneS{
-        font-size: 0.8rem;
-        right: 41%;
-        bottom: 96rem;
-    }
-
 }
 
 
@@ -147,30 +76,7 @@
     border-left: 3px solid variables.$oranged;
     right: 92%;
     height: 24rem; 
-
-    @include responsives.tablet{
-        right: 91%;
-    }
-
-    @include responsives.phoneL{
-        right: 90%;
-        top: 14rem;
-        height: 55rem;
-    }
-
-    @include responsives.phoneM{
-        right: 91%;
-        top: 13rem;
-        height: 60rem;
-    }
-
-    @include responsives.phoneS{
-        right: 89%;
-        top: 13rem;
-        height: 82rem;
-    }
-
-       
+  
 } 
 
 
@@ -185,30 +91,6 @@
     @include responsives.Desktop{
         font-size: 2rem;
         right: 37%;
-    }
-
-    @include responsives.tablet{
-        font-size: 1.5rem;
-        right: 38%;
-        bottom: 32rem;
-    }
-
-    @include responsives.phoneL{
-        font-size: 1.5rem;
-        right: 11%;
-        bottom: 59rem;
-    }
-
-    @include responsives.phoneM{
-        font-size: 1.5rem;
-        right: 2%;
-        bottom: 68rem;
-    }
-
-    @include responsives.phoneS{
-        font-size: 1.2rem;
-        right: 9%;
-        bottom: 92rem;
     }
 
 
@@ -232,20 +114,7 @@
             bottom: 29rem;
         }
 
-        @include responsives.tablet{
-            bottom: 27rem;
-        }
 
-        @include responsives.phoneL{
-            position: relative;
-            bottom: 6rem;
-        }
-
-        @include responsives.phoneM{
-            position: relative;
-            bottom: 9rem;
-            left: 3%;
-        }
     }
 
     
@@ -261,34 +130,6 @@
             position: relative;
         }
 
-        @include responsives.tablet{
-            position: relative;
-            font-size: 85%;
-            top: 1.5rem;
-        }
-
-        @include responsives.phoneL{
-            position: relative;
-            font-size: 85%;
-            width: 84%;
-            top: -5rem;
-        }
-
-        @include responsives.phoneM{
-            position:relative;
-            font-size: 85%;
-            width: 84%;
-            top: -9rem;
-        }
-
-        @include responsives.phoneS{
-            font-size: 1.2rem;
-            position: relative;
-            left: 3%;
-            bottom: 9rem;
-            width: 88%;
-        }
-    
 
     }
 
@@ -303,31 +144,7 @@
         border: solid 2px black;
         border-radius: variables.$border-radius;
         
-        
-        @include responsives.tablet{
-            max-width: 150px;
-            padding: 5px;
-            left: 76%;
-            top: 11rem;
-        }
 
-        @include responsives.phoneL{
-            top: 7rem;
-            max-width: 100px;
-            left: 68%;
-        }
-
-        @include responsives.phoneM{
-            top: 8rem;
-            max-width: 87px;
-            left: 70%;
-        }
-
-        @include responsives.phoneS{
-            top: 6rem;
-            max-width: 89px;
-            left: 70%;
-        }
         
     }
     
@@ -348,24 +165,6 @@
         @include responsives.Desktop{
             bottom: 1rem;
             left: 45%;
-        }
-
-        @include responsives.tablet{
-            bottom: 1rem;
-            font-size: 1rem;
-            left: 45%;
-        }
-
-        @include responsives.phoneL{
-            bottom: 1.5rem;
-            font-size: 1.5rem;
-            left: 34%;
-        }
-
-        @include responsives.phoneM{
-            bottom:2.5rem;
-            font-size: 1.5rem;
-            left: 30%;
         }
             
     }

@@ -41,19 +41,6 @@
         justify-content: space-between;
         font-weight: bold;
 
-        @include responsives.phoneL{
-          font-size: 5rem;
-        }
-
-        @include responsives.phoneM{
-          font-size: 3rem;
-        }
-
-        @include responsives.phoneS{
-          font-size: 2.5rem;
-        }
-  
-
       }
 
       &--1 {

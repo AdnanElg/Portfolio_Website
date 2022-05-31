@@ -24,26 +24,7 @@
         @include responsives.Desktop{
             padding-bottom: 20%;
         }
-
-        @include responsives.tablet{
-            padding-bottom: 25%;
-        }
-
-        @include responsives.phoneL{
-            padding-bottom: 40%;
-            font-size: 2.8rem;
-            padding-top: 3rem;
-        }
-
-        @include responsives.phoneM{
-            font-size: 2.5rem;
-        }
-
-        @include responsives.phoneS{
-            font-size: 2.2rem;
-        }
-    
-            
+        
     }
 }
 
@@ -54,12 +35,13 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 
     
     @include responsives.Desktop{
         gap: 0px;
     }
+
 
 }
 
@@ -86,11 +68,6 @@
         padding-bottom: 1rem;
         text-transform: uppercase;
 
-        @include responsives.phoneS{
-            font-size: 1.7rem;
-            padding-bottom: 0rem;
-        }
-    
     }
     
     
@@ -99,15 +76,6 @@
         font-size: 1.5rem;
         line-height: 2;
         padding: 1rem 0;
-
-        @include responsives.phoneL{
-            font-size: 1.2rem;
-        }
-
-
-        @include responsives.phoneM{
-            padding-right: 3rem;
-        }
             
     }
 }
@@ -169,14 +137,6 @@
         font-size: 1.5rem;
         line-height: 2;
         padding: 0px;
-
-        @include responsives.phoneM{
-            font-size: 1.2rem;
-        }
-
-        @include responsives.phoneS{
-            font-size: 1.1rem;
-        }
     
     }
 
@@ -228,9 +188,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    @include responsives.tablet{
-        display: contents;
-    }
 
     @include responsives.Desktop{
         position: relative;
@@ -272,11 +229,6 @@
         bottom: 5rem;
     }
 
-    @include responsives.tablet{
-        position: relative;
-        left: 0%;
-        bottom: 0rem;
-    }
 
 }
 
@@ -288,20 +240,6 @@
     @include responsives.Desktop{
         left: 60%;
         top: 1%;
-    }
-
-    @include responsives.tablet{
-        left: 35%;
-        top: 1rem;
-    }
-
-    @include responsives.phoneL{
-        left: 30%;
-        top: 0rem;
-    }
-
-    @include responsives.phoneM{
-        left: 23%;
     }
         
     

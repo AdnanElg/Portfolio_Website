@@ -22,21 +22,12 @@
         font-weight: variables.$weight;
         font-size: 4rem;
         padding-top: 5%;
-
-        @include responsives.tablet{
-            font-size: 5rem;
-        }
            
         @include responsives.Desktop{
             font-size: 5rem;
             padding-top: 5%;
         }
 
-        
-        @include responsives.phoneL{
-            font-size: 3rem;
-            margin-top: 4rem;
-        }
 
     }
     
@@ -47,18 +38,6 @@
         color: #fff;
         padding-top: variables.$padding-top+10px;
 
-        
-        @include responsives.phoneL{
-            font-size: 2rem;
-        }
-
-        @include responsives.phoneM{
-            font-size: 1.8rem;
-        }
-
-        @include responsives.phoneS{
-            font-size: 1.5rem;
-        }
     
     }
     
@@ -71,11 +50,6 @@
         width: 4%;
         margin-top: variables.$margin-top+5px;  
         
-        
-        @include responsives.phoneL{
-            left: 46%;
-            width: 9%;
-        }
            
     }
     
@@ -87,19 +61,6 @@
         padding-top: variables.$padding-top;
         padding-bottom: variables.$padding-bottom;
         line-height: 2rem; 
-
-        @include responsives.tablet{
-            font-size: 17px;
-        }
-
-        @include responsives.phoneM{
-            font-size: 16px;
-        }
-
-        @include responsives.phoneS{
-            font-size: 13px;
-        }
-    
      
     }
     
@@ -111,18 +72,6 @@
         padding-bottom: variables.$padding-bottom+30px;
         line-height: 2rem;    
 
-        @include responsives.tablet{
-            font-size: 17px;
-        }
-
-        @include responsives.phoneM{
-            font-size: 16px;
-        }
-
-        @include responsives.phoneS{
-            font-size: 13px;
-        }
-    
            
     }
     
@@ -131,13 +80,6 @@
     & button{
         @include btn.section1__btn;
 
-        @include responsives.tablet{
-            font-size: 20px;
-        }
-
-        @include responsives.phoneS{
-            font-size: 17px;
-        }
     
     }
     

@@ -27,20 +27,8 @@
     font-size: variables.$font-size;
     font-weight: 700;
 
-    @include responsives.tablet{
-        font-size: 27px;
-    }
 
-    
-    @include responsives.phoneL{
-        font-size: 20px;
-    }
 
-    
-    
-    @include responsives.phoneS{
-        font-size: 15px;
-    }
 
 
 
@@ -50,10 +38,10 @@
         text-decoration: none;
         padding-left: 1rem;
 
-        @include responsives.phoneL{
-            padding-left: 0rem;
-        }
+
     }
+
+
 
     & a:hover{
         color:variables.$oranged;
@@ -78,9 +66,6 @@
     list-style: none;
     font-weight: 700;
 
-    @include responsives.tablet{
-        display: none;
-    }
 
 
     & a {
@@ -106,17 +91,7 @@
 
 .conteneur__block{
     text-align: center;
-    padding-top: 15%;
-
-
-    @include responsives.tablet{
-        padding-top: 20%;
-    }
-    
-    
-    @include responsives.phoneL{
-        padding-top: 27%;
-    }
+    padding-top: 12%;
 
 
     & img{
@@ -125,14 +100,6 @@
         margin-bottom: 8%;
         border: 3px solid white;
 
-        @include responsives.tablet{
-            max-width: 30%;
-        }
-
-        
-        @include responsives.phoneL{
-            max-width: 60%;
-        }
 
     }
     
@@ -151,23 +118,6 @@
             bottom: 3rem;
         }
 
-        @include responsives.tablet{
-            bottom: 1rem;
-        }
-
-        
-        @include responsives.phoneL{
-            bottom: 0rem;
-            margin-bottom: 3rem;
-            margin-top: 1rem;
-        }
-
-
-        @include responsives.phoneS{
-            margin-bottom: 3rem;
-            margin-top: 1rem;
-            font-size: 1.4rem;
-        }
 
     }
     
@@ -209,14 +159,6 @@
         }
 
         
-        @include responsives.phoneL{
-            font-size: 35px;
-        }
-
-        @include responsives.phoneM{
-            font-size: 29px;
-        }
-    
     }
     
     
@@ -228,11 +170,6 @@
         width: 4%;
         margin-top: variables.$margin-top+5px;
 
-        
-        @include responsives.phoneL{
-            left: 45%;
-            width: 10%;
-        }
 
     }
     
@@ -250,24 +187,6 @@
             font-size: 20px;
         }
 
-        @include responsives.tablet{
-            font-size: 13px;
-            line-height: 2rem;
-        }
-        
-        @include responsives.phoneL{
-            font-size: 14px;
-            line-height: 2rem;
-        }
-
-        @include responsives.phoneM{
-            font-size: 12px;
-        }
-
-        @include responsives.phoneS{
-            font-size: 15px;
-        }
-    
     }
     
     
