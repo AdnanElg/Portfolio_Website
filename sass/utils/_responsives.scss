@@ -16,24 +16,6 @@
 }
 
 
-@mixin phoneL {
-    @media only screen and (max-width: 425px) {
-        @content;
-        
-    }
-}
-
-
-
-@mixin phoneM {
-    @media only screen and (max-width: 393px) {
-        @content;
-        
-    }
-}
-
-
-
 @mixin phoneS {
     @media only screen and (max-width: 320px) {
         @content;
