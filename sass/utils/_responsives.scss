@@ -26,7 +26,7 @@
 
 
 @mixin phoneM {
-    @media only screen and (max-width: 375px) and (max-width: 564px) {
+    @media only screen and (min-width: 375px) and (max-width: 564px) {
         @content;
         
     }
@@ -35,7 +35,7 @@
 
 
 @mixin phoneS {
-    @media only screen and (max-width: 320px) and (max-width: 564px) {
+    @media only screen and (min-width: 320px) and (max-width: 564px) {
         @content;
         
     }
