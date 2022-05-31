@@ -411,17 +411,17 @@ template {
   justify-content: space-between;
   font-weight: bold;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .loader__itemContainer {
     font-size: 5rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .loader__itemContainer {
     font-size: 3rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .loader__itemContainer {
     font-size: 2.5rem;
   }
@@ -458,12 +458,12 @@ template {
     font-size: 27px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__span {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__span {
     font-size: 15px;
   }
@@ -473,7 +473,7 @@ template {
   text-decoration: none;
   padding-left: 1rem;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__span a {
     padding-left: 0rem;
   }
@@ -521,7 +521,7 @@ template {
     padding-top: 20%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block {
     padding-top: 27%;
   }
@@ -537,7 +537,7 @@ template {
     max-width: 30%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block img {
     max-width: 60%;
   }
@@ -562,14 +562,14 @@ template {
     bottom: 1rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block div {
     bottom: 0rem;
     margin-bottom: 3rem;
     margin-top: 1rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block div {
     margin-bottom: 3rem;
     margin-top: 1rem;
@@ -602,12 +602,12 @@ template {
     font-size: 55px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block h1 {
     font-size: 35px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block h1 {
     font-size: 29px;
   }
@@ -620,7 +620,7 @@ template {
   width: 4%;
   margin-top: 35px;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block .conteneur__border {
     left: 45%;
     width: 10%;
@@ -645,18 +645,18 @@ template {
     line-height: 2rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block p {
     font-size: 14px;
     line-height: 2rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block p {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block p {
     font-size: 15px;
   }
@@ -696,7 +696,7 @@ template {
     padding-top: 5%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section1 h2 {
     font-size: 3rem;
     margin-top: 4rem;
@@ -708,17 +708,17 @@ template {
   color: #fff;
   padding-top: 30px;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section1 h3 {
     font-size: 2rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__section1 h3 {
     font-size: 1.8rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section1 h3 {
     font-size: 1.5rem;
   }
@@ -731,7 +731,7 @@ template {
   width: 4%;
   margin-top: 35px;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section1 .conteneur__border__section1 {
     left: 46%;
     width: 9%;
@@ -750,12 +750,12 @@ template {
     font-size: 17px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__section1 .conteneur__paragraphe1__section1 {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section1 .conteneur__paragraphe1__section1 {
     font-size: 13px;
   }
@@ -772,12 +772,12 @@ template {
     font-size: 17px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__section1 .conteneur__paragraphe2__section1 {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section1 .conteneur__paragraphe2__section1 {
     font-size: 13px;
   }
@@ -797,7 +797,7 @@ template {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section1 button {
     font-size: 17px;
   }
@@ -825,13 +825,13 @@ template {
   font-size: 4rem;
   padding-bottom: 5%;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section2 h2 {
     font-size: 2.7rem;
     padding-bottom: 10%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section2 h2 {
     font-size: 2.5rem;
   }
@@ -846,7 +846,7 @@ template {
   border: solid 2px black;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section2 .conteneur__block__img img {
     max-width: 150px;
   }
@@ -897,18 +897,18 @@ template {
     padding-top: 7%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section3 h2 {
     font-size: 3rem;
     padding-bottom: 59%;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__section3 h2 {
     padding-bottom: 80%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section3 h2 {
     font-size: 2.5rem;
   }
@@ -931,7 +931,7 @@ template {
     position: relative;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .image1__section3 {
     max-width: 83px;
     margin: 3px;
@@ -940,7 +940,7 @@ template {
     position: relative;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .image1__section3 {
     max-width: 60px;
     margin: 3px;
@@ -949,7 +949,7 @@ template {
     position: relative;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .image1__section3 {
     bottom: 12rem;
   }
@@ -979,21 +979,21 @@ template {
     bottom: 39rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__date__section3 {
     right: 44%;
     font-size: 1rem;
     bottom: 65rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__date__section3 {
     right: 41%;
     font-size: 1rem;
     bottom: 73rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__date__section3 {
     font-size: 0.8rem;
     right: 41%;
@@ -1013,21 +1013,21 @@ template {
     right: 91%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__border__section3 {
     right: 90%;
     top: 14rem;
     height: 55rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__border__section3 {
     right: 91%;
     top: 13rem;
     height: 60rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__border__section3 {
     right: 89%;
     top: 13rem;
@@ -1055,21 +1055,21 @@ template {
     bottom: 32rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__formation h3 {
     font-size: 1.5rem;
     right: 11%;
     bottom: 59rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__formation h3 {
     font-size: 1.5rem;
     right: 2%;
     bottom: 68rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__formation h3 {
     font-size: 1.2rem;
     right: 9%;
@@ -1096,13 +1096,13 @@ template {
     bottom: 27rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__projets__section3 h4 {
     position: relative;
     bottom: 6rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__projets__section3 h4 {
     position: relative;
     bottom: 9rem;
@@ -1129,7 +1129,7 @@ template {
     top: 1.5rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__projets__section3 p {
     position: relative;
     font-size: 85%;
@@ -1137,7 +1137,7 @@ template {
     top: -5rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__projets__section3 p {
     position: relative;
     font-size: 85%;
@@ -1145,7 +1145,7 @@ template {
     top: -9rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__projets__section3 p {
     font-size: 1.2rem;
     position: relative;
@@ -1172,21 +1172,21 @@ template {
     top: 11rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__projets__section3 .image2__section3 {
     top: 7rem;
     max-width: 100px;
     left: 68%;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__projets__section3 .image2__section3 {
     top: 8rem;
     max-width: 87px;
     left: 70%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__projets__section3 .image2__section3 {
     top: 6rem;
     max-width: 89px;
@@ -1223,14 +1223,14 @@ template {
     left: 45%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__projets__section3 button {
     bottom: 1.5rem;
     font-size: 1.5rem;
     left: 34%;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__projets__section3 button {
     bottom: 2.5rem;
     font-size: 1.5rem;
@@ -1260,17 +1260,17 @@ template {
   padding-top: 7%;
   padding-bottom: 10%;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__section4 h2 {
     font-size: 3rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__section4 h2 {
     font-size: 2.8rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__section4 h2 {
     font-size: 2.3rem;
   }
@@ -1302,7 +1302,7 @@ template {
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets1 {
     max-width: 95%;
   }
@@ -1323,22 +1323,22 @@ template {
     max-width: 390px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets1 img {
     max-width: 280px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets1 img {
     max-width: 370px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__projets1 img {
     max-width: 330px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__projets1 img {
     max-width: 280px;
   }
@@ -1358,17 +1358,17 @@ template {
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets1 h3 {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__projets1 h3 {
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__projets1 h3 {
     font-size: 15px;
   }
@@ -1391,12 +1391,12 @@ template {
     width: 391px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets1 p {
     width: 92%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__projets1 p {
     width: 86%;
   }
@@ -1446,7 +1446,7 @@ template {
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets2 {
     max-width: 95%;
   }
@@ -1467,12 +1467,12 @@ template {
     max-width: 370px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__block__projets2 img {
     max-width: 320px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__block__projets2 img {
     max-width: 270px;
   }
@@ -1511,7 +1511,7 @@ template {
     width: 400px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__block__projets2 p {
     width: 92%;
   }
@@ -1556,19 +1556,19 @@ template {
     top: 4rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__btn__section4 {
     top: 2rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__btn__section4 {
     font-size: 1.2rem;
     top: 2rem;
     padding: 1rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__btn__section4 {
     top: 1rem;
   }
@@ -1605,19 +1605,19 @@ template {
     padding-bottom: 25%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__section5 h2 {
     padding-bottom: 40%;
     font-size: 2.8rem;
     padding-top: 3rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__section5 h2 {
     font-size: 2.5rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__section5 h2 {
     font-size: 2.2rem;
   }
@@ -1656,7 +1656,7 @@ template {
   padding-bottom: 1rem;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .info-container h3 {
     font-size: 1.7rem;
     padding-bottom: 0rem;
@@ -1668,12 +1668,12 @@ template {
   line-height: 2;
   padding: 1rem 0;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .info-container p {
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .info-container p {
     padding-right: 3rem;
   }
@@ -1719,12 +1719,12 @@ template {
   line-height: 2;
   padding: 0px;
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .info2 p {
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .info2 p {
     font-size: 1.1rem;
   }
@@ -1836,13 +1836,13 @@ template {
     top: 1rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .button {
     left: 30%;
     top: 0rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .button {
     left: 23%;
   }
@@ -1897,7 +1897,7 @@ template {
     right: 0px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__footer ul {
     gap: 3.6rem;
     margin: 0;
@@ -1907,13 +1907,13 @@ template {
     right: 0px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 375px) and (max-width: 564px) {
   .conteneur__footer ul {
     top: 0.5rem;
     left: 4%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (max-width: 564px) {
   .conteneur__footer ul {
     font-size: 1.3rem;
     left: 0%;
@@ -1941,7 +1941,7 @@ template {
     height: 7rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__footer .border__footer__y {
     display: none;
   }
@@ -1961,7 +1961,7 @@ template {
     left: 40%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__footer .border__footer__x {
     display: none;
   }
@@ -1991,7 +1991,7 @@ template {
     left: 43%;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__footer .conteneur__liens_footer ul {
     display: none;
   }
@@ -2021,7 +2021,7 @@ template {
     top: 5.5rem;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 564px) {
   .conteneur__footer .conteneur__liens_footer span a {
     display: none;
   }
